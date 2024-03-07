@@ -41,6 +41,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
         </button>
     </form>
     <h2>silahkan mendaftarkan akun baru anda</h2>
+    <p>tambahan dari developer 1</p>
 
 </body>
 
