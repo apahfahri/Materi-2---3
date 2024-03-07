@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #5E91F8;
+    background-image: url('image/bgMotif.png');
+}
+
+.top{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    padding-top: 20px;
+    font-family: montserrat;
+    color: #FEFEFF;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 70px;
+}
+
+.bottom{
+    background-color: #FEFEFF;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+input{
+    width: 300px;
+    height: 35px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.button-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+button{
+    padding: 8px;
+    background-color: #5E91F8;
+    width: 319px;
+    height: 45px;
+    border: none;
+    color: #FEFEFF;
+    border-radius: 8px;
+}
+
+.footer{
+    display: flex;
+    gap: 9em;
+}
+
+a{
+    color: #FEFEFF;
+    text-decoration: none;
+}
