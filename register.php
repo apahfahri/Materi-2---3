@@ -40,6 +40,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
             Register
         </button>
     </form>
+    <h2>silahkan mendaftarkan akun baru anda</h2>
 
 </body>
 
